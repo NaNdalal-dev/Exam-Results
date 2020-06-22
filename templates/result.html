@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+</head>
+<body>
+<div>
+	<center>
+		<h1>Result:</h1>
+		<table border="1">
+		{% for key,value in result.items():%}
+		<tr>
+			<th>{{ key }}</th>
+			<td>{{ value }}</td>
+		</tr>
+		{% endfor %}
+		</table>
+		<br>
+		<button onclick="window.print()">Print this page</button>
+	</center>
+</div>
+</body>
+</html>

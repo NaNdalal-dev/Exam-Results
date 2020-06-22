@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+</head>
+<body>
+<div>
+	<center>
+		<form action="/result" method="post">
+			<table width="30%">
+				<tr>
+					<td>
+						<label for='uid'>Enter UID:</label>
+					</td>
+					<td>
+						<input type="number" name="uid" id='uid' required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for='course'>Select Course:</label>
+					</td>
+					<td>
+						<select name='course' id='course'>
+							<option value='Bsc' selected>B.sc</option>
+							<option value="Bcom">B.com</option>
+							<option value="BBA">BBA</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</center>
+</div>
+<br>
+<div>
+	<center align='left'>
+		<b>Note:</b>	
+		<table>
+			<tr>
+				<td>
+					<h4> Bsc UIDs:</h4>
+				</td>
+				<td>
+					<h4>1001-1100</h4>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4> Bcom UIDs:</h4>
+				</td>
+				<td>
+					<h4>2001-2100</h4>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4> BBA UIDs:</h4>
+				</td>
+				<td>
+					<h4>3001-3100</h4>
+				</td>
+			</tr>
+		</table>
+	</center>
+</div>
+</body>
+</html>
